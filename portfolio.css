@@ -1,0 +1,135 @@
+/* Color Palette
+#222222 - Eerie Black
+#4B4E6D - Ultra Violet
+#95A3B3 - Cadet Grey
+#C3D350 - Pear
+#3AAFB9 - Verdigris
+#F7FFF7 - Almost White
+#FA8334 - Pumpkin 
+#FFD639 - Gold  
+#561643 - Tyrian Purple
+-------------------------*/
+
+
+/* Global Styles
+----------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+img {
+    width: 300px;
+}
+body {
+    color: #222222;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a {
+    color: #f7fff7;
+}
+a:hover {
+    color: #FFD639;
+    text-decoration
+}
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap {
+    width: 800px
+    margin: 0 auto;
+    padding: 60px 30px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* Profile
+----------------------*/
+header {
+    background: #561643;
+    color: #F7FFF7;  
+    text-align: center;
+}
+
+
+/* Projects
+----------------------*/
+.projects {
+    
+}
+.projects a {
+    color: #22222;
+}
+.projects .btn {
+    color: #95a3b3;
+    background: #22222;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: #C3D350;
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #222222;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Work Experience
+----------------------*/
+.work-experience {
+    background: #C3D350;
+}
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+/* Education
+----------------------*/
+
+
+
+
+/* Contact Info
+----------------------*/
+footer {
+    background: #343434; 
+    color: #F7FFF7; 
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
